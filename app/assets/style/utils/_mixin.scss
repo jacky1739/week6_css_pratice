@@ -1,0 +1,33 @@
+@mixin bg-cover($url, $height) {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url($url);
+    height: $height;
+}
+
+@mixin img-cover($height) {
+    height: $height;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@mixin picture {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// phone
+@mixin md {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+// pad
+@mixin lg {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
