@@ -8624,14 +8624,21 @@ a.text-white:hover, a.text-white:focus {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+  @media (max-width: 768px) {
+    .banner {
+      height: 480px; } }
 
-.card {
+.card_img {
   width: 100%;
   height: 555px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center; }
+
+.card_list_img {
+  width: 100%;
+  height: 1080px; }
 
 .logo {
   width: 128px;
