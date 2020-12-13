@@ -2,11 +2,20 @@
     height: 870px;
     max-width: 100%;
     background-image: url("../images/index1.jpg");
+    @media(max-width: 768px){
+        height: 480px;
+    }
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .card{
-    width: 100%;
-    @include img-cover(555px);
+    &_img {
+        width: 100%;
+        @include img-cover(555px);
+    }
+    &_list_img{
+        width: 100%;
+        height: 1080px;
+    }
 }
