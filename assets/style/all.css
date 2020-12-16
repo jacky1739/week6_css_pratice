@@ -8640,6 +8640,16 @@ a.text-white:hover, a.text-white:focus {
   width: 100%;
   height: 1080px; }
 
+.bottle-recycle {
+  width: 730px; }
+
+.subscribe {
+  background-image: url("./assets/images/index10.jpg"); }
+
+.products_item_img {
+  width: 255px;
+  height: auto; }
+
 .logo {
   width: 128px;
   background-image: url("../images/d’Perfume@2x.png");

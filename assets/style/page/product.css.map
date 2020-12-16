@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/product.scss"],"names":[],"mappings":"AAAA;EACI,YAAY;EACZ,YAAY,EAAA","file":"product.css","sourcesContent":[".products_item_img{\n    width: 255px;\n    height: auto;\n}"]}
