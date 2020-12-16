@@ -1,4 +1,15 @@
+h2, h3 ,a:hover{
+    text-decoration: none;
+}
 .products_item_img{
     width: 255px;
-    height: auto;
+    height: 255px;
+}
+.card-title{
+    font: normal normal 600 24px/36px SF Pro Text;
+    color: #000000;
+}
+.card-subtitle{
+    font: normal normal 300 16px/24px SF Pro Text;
+    color: #000000;
 }
