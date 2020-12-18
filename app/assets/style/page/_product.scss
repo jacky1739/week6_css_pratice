@@ -2,8 +2,12 @@ h2, h3 ,a:hover{
     text-decoration: none;
 }
 .products_item_img{
-    width: 255px;
+    background-image: url("./assets/images/products1.jpg");
     height: 255px;
+    width: 255px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .card-title{
     font: normal normal 600 24px/36px SF Pro Text;
