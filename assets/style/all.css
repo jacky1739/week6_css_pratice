@@ -8690,4 +8690,12 @@ h2, h3, a:hover {
   background-repeat: no-repeat;
   background-position: center; }
 
+.productsItem {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.products_detail_img {
+  width: 100%;
+  height: auto; }
+
 /*# sourceMappingURL=all.css.map */
