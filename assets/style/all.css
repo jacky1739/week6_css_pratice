@@ -8691,6 +8691,15 @@ h2, h3, a:hover {
   background-repeat: no-repeat;
   background-position: center; }
 
+.footer_logo {
+  width: 128px;
+  background-image: url("../images/d’Perfumew.png");
+  background-size: contain;
+  overflow: hidden;
+  text-indent: 101%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .productsItem {
   padding-top: 80px;
   padding-bottom: 80px; }
