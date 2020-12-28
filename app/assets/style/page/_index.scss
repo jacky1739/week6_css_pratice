@@ -1,13 +1,13 @@
 .banner{
     height: 870px;
+    display: block;
     max-width: 100%;
     background-image: url("../images/index1.jpg");
     @media(max-width: 768px){
         height: 480px;
+
     }
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include textCover;
 }
 .card{
     &_img {
